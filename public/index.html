@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <title>Le Parc De La Gréneraie</title>
     <link href="style.css" rel="stylesheet">
-    <script src="script.js"></script>
 </head>
 <body>
     <h1>Bienvenue sur le site du conseil syndical de la copropriété
@@ -44,21 +43,32 @@
         en fermant le compteur situé dans la gaine palière.</p>
 
     <h3>Contact</h3>
-    <p>
-        Pour toute question, vous pouvez contacter les membres du
-        conseil syndical à l'adresse suivante : <a
-            href="mailto:leparcdelagreneraie@free.fr">leparcdelagreneraie@free.fr</a>
-    </p>
-    <p>Voici actuellement les membres :</p>
-    <ul>
-        <li>Muriel Bonet</li>
-        <li>André Bonet</li>
-        <li>Marie Annick Rigaud</li>
-        <li>Hélène Brusetti</li>
-        <li>Marion Vallade</li>
-        <li>Fabien Saint Jalmes</li>
-        <li>Romain De Carvalho</li>
-    </ul>
+    <div class="fantome">
+        <label for="mail2">
+            Vous ne devez pas remplir ce champ *
+        </label>
+        <input type="text" name="mail2" id="mail2"/>
+    </div>
+    <div>
+        <button id="contactDetailButton">Afficher les détails</button>
+    </div>
+    <section id="contact">
+        <p>
+            Pour toute question, vous pouvez contacter les membres du
+            conseil syndical à l'adresse suivante : <a
+                href="mailto:leparcdelagreneraie@free.fr">leparcdelagreneraie@free.fr</a>
+        </p>
+        <p>Voici actuellement les membres :</p>
+        <ul>
+            <li>Muriel Bonet</li>
+            <li>André Bonet</li>
+            <li>Marie Annick Rigaud</li>
+            <li>Hélène Brusetti</li>
+            <li>Marion Vallade</li>
+            <li>Fabien Saint Jalmes</li>
+            <li>Romain De Carvalho</li>
+        </ul>
+    </section>
 
     <h3>Gestionnaire de copropriété</h3>
     <p>Le gestionnaire de copropriété est le cabinet LEFEUVRE</p>
@@ -71,5 +81,6 @@
     <p>Vous pouvez accéder au site extranet du cabinet LEFEUVRE à l'adresse suivante :</p>
     <a href="https://extranet2.ics.fr/V5/index.php">https://extranet2.ics.fr/V5/index.php</a>
     <p>Vous y retrouverez notamment vos documents.</p>
+    <script src="script.js"></script>
 </body>
 </html>
