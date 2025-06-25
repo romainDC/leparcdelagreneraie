@@ -5,4 +5,4 @@ let mail = document.getElementById("mail2");
 cdb.onclick = () => {
     if (mail.innerHTML === "")
         contact.style.display = "initial";
-}
+};

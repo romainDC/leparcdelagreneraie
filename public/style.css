@@ -12,3 +12,11 @@ h1 {
 .fantome,#contact {
     display: none;
 }
+
+#adresse {
+    display: flex;
+}
+
+#adresse > p {
+    margin: 0 1em 0 1em;
+}
